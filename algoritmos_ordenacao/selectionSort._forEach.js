@@ -1,6 +1,8 @@
 const livros = require('./listaLivros')
 const menorValor = require('./menorValor')
 
+// Algoritmo de ordenação Selection Sort com for Each
+// se quiser ordenar por titulo basta substitui .preco por .titulo
 livros.forEach((_, indice) => {
     let menor = menorValor(livros, indice)
    
